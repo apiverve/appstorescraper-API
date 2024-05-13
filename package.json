@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/appstorescraper",
+  "version": "1.0.0",
+  "description": "App Store Scraper is a simple tool for scraping app store data. It returns the app name, description, price, and more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/appstorescraper-API.git"
+  },
+  "keywords": [
+    "app store"," app data"," app store data"," app store scraper"," app store api"," app store data scraper"," app store data extraction"," app store data extraction api"," app store data extraction tool"," app store data extraction software"," app store data extraction service"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/appstorescraper-API/issues"
+  },
+  "homepage": "https://github.com/apiverve/appstorescraper-API",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "3.3.2",
+    "promise": "^7.1.1",
+    "request": "^2.69.0"
+  }
+}
